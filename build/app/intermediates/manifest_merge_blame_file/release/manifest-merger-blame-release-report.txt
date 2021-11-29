@@ -1,0 +1,244 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dietaholics.driver"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:3:5-79
+11-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:3:22-76
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:4:5-64
+12-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:4:22-62
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:5:5-66
+13-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:5:22-64
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:6:5-80
+14-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:7:5-66
+15-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:7:22-63
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:8:5-68
+16-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:8:22-65
+17    <!--
+18         io.flutter.app.FlutterApplication is an android.app.Application that
+19         calls FlutterMain.startInitialization(this); in its onCreate method.
+20         In most cases you can leave this as-is, but you if you want to provide
+21         additional functionality it is fine to subclass or reimplement
+22         FlutterApplication and put your custom class here.
+23    -->
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:5:5-66
+24-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:5:22-64
+25    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+25-->[:location] /Users/apple/Documents/Karachi Client/delivery_boy/build/location/intermediates/library_manifest/release/AndroidManifest.xml:7:5-81
+25-->[:location] /Users/apple/Documents/Karachi Client/delivery_boy/build/location/intermediates/library_manifest/release/AndroidManifest.xml:7:22-78
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[com.google.firebase:firebase-iid:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4d416b6540c4a4dff122341b589ab8b5/jetified-firebase-iid-20.0.0/AndroidManifest.xml:22:5-79
+26-->[com.google.firebase:firebase-iid:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4d416b6540c4a4dff122341b589ab8b5/jetified-firebase-iid-20.0.0/AndroidManifest.xml:22:22-76
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-iid:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4d416b6540c4a4dff122341b589ab8b5/jetified-firebase-iid-20.0.0/AndroidManifest.xml:26:5-82
+27-->[com.google.firebase:firebase-iid:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4d416b6540c4a4dff122341b589ab8b5/jetified-firebase-iid-20.0.0/AndroidManifest.xml:26:22-79
+28
+29    <uses-feature
+29-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c7777aecc9b518b91cae3fbb13a2000e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+30        android:glEsVersion="0x00020000"
+30-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c7777aecc9b518b91cae3fbb13a2000e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+31        android:required="true" />
+31-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c7777aecc9b518b91cae3fbb13a2000e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+32
+33    <application
+33-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:15:5-49:19
+34        android:name="io.flutter.app.FlutterApplication"
+34-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:16:9-57
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/5ccf874b2c89b109cbe5926e228e3a5a/core-1.2.0/AndroidManifest.xml:24:18-86
+36        android:icon="@mipmap/ic_launcher"
+36-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:18:9-43
+37        android:label="Driver" >
+37-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:17:9-31
+38        <meta-data
+38-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:19:9-20:73
+39            android:name="com.google.android.geo.API_KEY"
+39-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:19:20-65
+40            android:value="AIzaSyCtv-ig64YziJiZE1VY09E0cMgjBwraQkM" />
+40-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:20:16-71
+41
+42        <activity
+42-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:21:9-36:20
+43            android:name="com.dietaholics.driver.MainActivity"
+43-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:22:13-41
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:25:13-163
+45            android:hardwareAccelerated="true"
+45-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:26:13-47
+46            android:launchMode="singleTop"
+46-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:23:13-43
+47            android:theme="@style/LaunchTheme"
+47-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:24:13-47
+48            android:windowSoftInputMode="adjustResize" >
+48-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:27:13-55
+49            <intent-filter>
+49-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:28:13-31:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:29:17-68
+50-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:29:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:30:17-76
+52-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:30:27-74
+53            </intent-filter>
+54            <intent-filter>
+54-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:32:13-35:29
+55                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+55-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:33:17-69
+55-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:33:25-66
+56
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:34:17-76
+57-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:34:27-73
+58            </intent-filter>
+59        </activity>
+60
+61        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+61-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:37:10-107
+61-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:37:20-104
+62        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+62-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:38:9-43:20
+62-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:38:19-107
+63            <intent-filter>
+63-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:39:13-42:29
+64                <action android:name="android.intent.action.BOOT_COMPLETED" />
+64-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:40:17-78
+64-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:40:25-76
+65                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+65-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:41:17-83
+65-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:41:25-81
+66            </intent-filter>
+67        </receiver>
+68        <!--
+69             Don't delete the meta-data below.
+70             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+71        -->
+72        <meta-data
+72-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:46:9-48:33
+73            android:name="flutterEmbedding"
+73-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:47:13-44
+74            android:value="2" />
+74-->/Users/apple/Documents/Karachi Client/delivery_boy/android/app/src/main/AndroidManifest.xml:48:13-30
+75
+76        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+76-->[:firebase_messaging] /Users/apple/Documents/Karachi Client/delivery_boy/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+76-->[:firebase_messaging] /Users/apple/Documents/Karachi Client/delivery_boy/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:18-101
+77            <intent-filter>
+77-->[:firebase_messaging] /Users/apple/Documents/Karachi Client/delivery_boy/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:29
+78                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+78-->[:firebase_messaging] /Users/apple/Documents/Karachi Client/delivery_boy/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:10:17-78
+78-->[:firebase_messaging] /Users/apple/Documents/Karachi Client/delivery_boy/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:10:25-75
+79            </intent-filter>
+80        </service>
+81        <service
+81-->[:firebase_messaging] /Users/apple/Documents/Karachi Client/delivery_boy/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:13:9-17:19
+82            android:name="com.google.firebase.components.ComponentDiscoveryService"
+82-->[:firebase_messaging] /Users/apple/Documents/Karachi Client/delivery_boy/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:13:18-89
+83            android:exported="false" >
+83-->[com.google.firebase:firebase-iid:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4d416b6540c4a4dff122341b589ab8b5/jetified-firebase-iid-20.0.0/AndroidManifest.xml:31:13-37
+84            <meta-data
+84-->[:firebase_messaging] /Users/apple/Documents/Karachi Client/delivery_boy/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:14:13-16:85
+85                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+85-->[:firebase_messaging] /Users/apple/Documents/Karachi Client/delivery_boy/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:15:17-127
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[:firebase_messaging] /Users/apple/Documents/Karachi Client/delivery_boy/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:16:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-iid:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4d416b6540c4a4dff122341b589ab8b5/jetified-firebase-iid-20.0.0/AndroidManifest.xml:32:13-34:85
+88                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+88-->[com.google.firebase:firebase-iid:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4d416b6540c4a4dff122341b589ab8b5/jetified-firebase-iid-20.0.0/AndroidManifest.xml:33:17-96
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-iid:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4d416b6540c4a4dff122341b589ab8b5/jetified-firebase-iid-20.0.0/AndroidManifest.xml:34:17-82
+90        </service>
+91
+92        <activity
+92-->[:url_launcher] /Users/apple/Documents/Karachi Client/delivery_boy/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+93            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+93-->[:url_launcher] /Users/apple/Documents/Karachi Client/delivery_boy/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+94            android:exported="false"
+94-->[:url_launcher] /Users/apple/Documents/Karachi Client/delivery_boy/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+95            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+95-->[:url_launcher] /Users/apple/Documents/Karachi Client/delivery_boy/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+96        <!--
+97             FirebaseMessagingService performs security checks at runtime,
+98             but set to not exported to explicitly avoid allowing another app to call it.
+99        -->
+100        <service
+100-->[com.google.firebase:firebase-messaging:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b7f6c4cce71edde2df476999621954b1/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:28:9-34:19
+101            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+101-->[com.google.firebase:firebase-messaging:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b7f6c4cce71edde2df476999621954b1/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:29:13-82
+102            android:exported="false" >
+102-->[com.google.firebase:firebase-messaging:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b7f6c4cce71edde2df476999621954b1/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:30:13-37
+103            <intent-filter android:priority="-500" >
+103-->[:firebase_messaging] /Users/apple/Documents/Karachi Client/delivery_boy/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:29
+104                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+104-->[:firebase_messaging] /Users/apple/Documents/Karachi Client/delivery_boy/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:10:17-78
+104-->[:firebase_messaging] /Users/apple/Documents/Karachi Client/delivery_boy/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:10:25-75
+105            </intent-filter>
+106        </service>
+107
+108        <receiver
+108-->[com.google.firebase:firebase-iid:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4d416b6540c4a4dff122341b589ab8b5/jetified-firebase-iid-20.0.0/AndroidManifest.xml:37:9-44:20
+109            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+109-->[com.google.firebase:firebase-iid:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4d416b6540c4a4dff122341b589ab8b5/jetified-firebase-iid-20.0.0/AndroidManifest.xml:38:13-78
+110            android:exported="true"
+110-->[com.google.firebase:firebase-iid:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4d416b6540c4a4dff122341b589ab8b5/jetified-firebase-iid-20.0.0/AndroidManifest.xml:39:13-36
+111            android:permission="com.google.android.c2dm.permission.SEND" >
+111-->[com.google.firebase:firebase-iid:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4d416b6540c4a4dff122341b589ab8b5/jetified-firebase-iid-20.0.0/AndroidManifest.xml:40:13-73
+112            <intent-filter>
+112-->[com.google.firebase:firebase-iid:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4d416b6540c4a4dff122341b589ab8b5/jetified-firebase-iid-20.0.0/AndroidManifest.xml:41:13-43:29
+113                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+113-->[com.google.firebase:firebase-iid:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4d416b6540c4a4dff122341b589ab8b5/jetified-firebase-iid-20.0.0/AndroidManifest.xml:42:17-81
+113-->[com.google.firebase:firebase-iid:20.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4d416b6540c4a4dff122341b589ab8b5/jetified-firebase-iid-20.0.0/AndroidManifest.xml:42:25-78
+114            </intent-filter>
+115        </receiver> <!-- Needs to be explicitly declared on P+ -->
+116        <uses-library
+116-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c7777aecc9b518b91cae3fbb13a2000e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+117            android:name="org.apache.http.legacy"
+117-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c7777aecc9b518b91cae3fbb13a2000e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+118            android:required="false" />
+118-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c7777aecc9b518b91cae3fbb13a2000e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+119
+120        <provider
+120-->[com.google.firebase:firebase-common:19.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6d5e58184ba4a9fc91f8631eea3ab8e6/jetified-firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
+121            android:name="com.google.firebase.provider.FirebaseInitProvider"
+121-->[com.google.firebase:firebase-common:19.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6d5e58184ba4a9fc91f8631eea3ab8e6/jetified-firebase-common-19.0.0/AndroidManifest.xml:13:13-77
+122            android:authorities="com.dietaholics.driver.firebaseinitprovider"
+122-->[com.google.firebase:firebase-common:19.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6d5e58184ba4a9fc91f8631eea3ab8e6/jetified-firebase-common-19.0.0/AndroidManifest.xml:14:13-72
+123            android:exported="false"
+123-->[com.google.firebase:firebase-common:19.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6d5e58184ba4a9fc91f8631eea3ab8e6/jetified-firebase-common-19.0.0/AndroidManifest.xml:15:13-37
+124            android:initOrder="100" />
+124-->[com.google.firebase:firebase-common:19.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6d5e58184ba4a9fc91f8631eea3ab8e6/jetified-firebase-common-19.0.0/AndroidManifest.xml:16:13-36
+125
+126        <activity
+126-->[com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b4f2cc753d5c36b7f2e501f3d12f8a89/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+127            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+127-->[com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b4f2cc753d5c36b7f2e501f3d12f8a89/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+128            android:exported="false"
+128-->[com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b4f2cc753d5c36b7f2e501f3d12f8a89/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->[com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b4f2cc753d5c36b7f2e501f3d12f8a89/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+130
+131        <meta-data
+131-->[com.google.android.gms:play-services-basement:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/98966a5c23e077dd5149cfeefa884bf4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+132            android:name="com.google.android.gms.version"
+132-->[com.google.android.gms:play-services-basement:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/98966a5c23e077dd5149cfeefa884bf4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+133            android:value="@integer/google_play_services_version" />
+133-->[com.google.android.gms:play-services-basement:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/98966a5c23e077dd5149cfeefa884bf4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+134    </application>
+135
+136</manifest>

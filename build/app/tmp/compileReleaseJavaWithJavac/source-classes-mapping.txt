@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/dietaholics/driver/BuildConfig.java
+ com.dietaholics.driver.BuildConfig

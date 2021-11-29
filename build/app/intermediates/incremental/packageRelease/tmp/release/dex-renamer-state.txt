@@ -1,0 +1,4 @@
+#Sat Nov 27 12:55:57 PKT 2021
+base.0=/Users/apple/Documents/Karachi Client/delivery_boy/build/app/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

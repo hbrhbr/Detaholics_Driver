@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/apple/Documents/Karachi Client/delivery_boy/build/google_maps_flutter/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/b4f2cc753d5c36b7f2e501f3d12f8a89/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/Karachi Client/delivery_boy/build/google_maps_flutter/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/b4f2cc753d5c36b7f2e501f3d12f8a89/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/Karachi Client/delivery_boy/build/google_maps_flutter/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/b4f2cc753d5c36b7f2e501f3d12f8a89/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

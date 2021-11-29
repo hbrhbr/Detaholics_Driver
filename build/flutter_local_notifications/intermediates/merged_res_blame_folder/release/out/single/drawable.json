@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/apple/Documents/Karachi Client/delivery_boy/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/5ccf874b2c89b109cbe5926e228e3a5a/core-1.2.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/Karachi Client/delivery_boy/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/5ccf874b2c89b109cbe5926e228e3a5a/core-1.2.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/Karachi Client/delivery_boy/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/5ccf874b2c89b109cbe5926e228e3a5a/core-1.2.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/Karachi Client/delivery_boy/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/5ccf874b2c89b109cbe5926e228e3a5a/core-1.2.0/res/drawable/notification_bg.xml"
+    }
+]
